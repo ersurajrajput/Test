@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<String> dataList = new ArrayList<>();
         for (int i = 0; i<userListModel.size();i++){
             String s = "";
-
             String id,name,uname,email;
             id = String.valueOf(userListModel.get(i).getId());
             name = userListModel.get(i).getName();
